@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+*{
+    margin: 0mm;
+    padding: 0mm;
+    background-color:white;
+}
+nav {
+    font-weight: 800;
+}   
+nav img {
+    width: 7mm;
+    height: 7mm;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+}  
+nav li{
+    padding: 0.5em;
+}
+header *{
+    background-color: yellow;
+}
+header img{
+    width: 90mm;
+    height: 90mm;
+}
+.break{
+    display: block;
+    text-align: center;
+    margin: 3px;
+}
+header section{
+    display: flex;
+    flex-direction:row ;
+    padding-left: 80px;
+    align-content: center;
+}
+header section p{
+    text-align: center;
+    padding: 40px;
+}
+#button{
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-left: 1em;
+    padding-top: 30px;
+}
+.link-button{
+    background-color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.rule{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    padding: 10px;
+    list-style: none;
+    color: grey;
+}
+.rule p{
+    font-weight: bold;
+    color: black;
+}
+.rule div ul{
+    list-style: none;
+}
+
+.lang{
+    padding-left: 130px;
+    margin-bottom: 10px;
+    
+}
+.lang p{
+    font-weight:bold;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: black;
+}
+#footer p{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 120px;
+}
+.font{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
